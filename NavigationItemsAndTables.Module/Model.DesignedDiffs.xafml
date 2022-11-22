@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="NavigationItemsAndTables">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Main" Caption="Main" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="Sub1" Caption="Sub1" IsNewNode="True">
+            <Items IsNewNode="True">
+              <Item Id="Sub2" Caption="Sub2" IsNewNode="True">
+                <Items IsNewNode="True">
+                  <Item Id="@6ce45cb5-c538-42e7-bd5f-f33b05e4a572" ViewId="DomainObject2_ListView" IsNewNode="True" />
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>
